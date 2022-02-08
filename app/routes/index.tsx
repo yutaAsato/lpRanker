@@ -25,7 +25,7 @@ export const Table = () => {
       <ul>
         {data.map((data: any) => (
           <li key={data.key}>
-            <Link to={data.name}>{data.name}</Link>
+            <div>{data.name}</div>
           </li>
         ))}
       </ul>
