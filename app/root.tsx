@@ -16,11 +16,12 @@ function Document({
   return (
     <html lang="en">
       <head>
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
         <meta charSet="utf-8" />
         <title>{title}</title>
         <Links />
       </head>
-      <body className="antialiased text-slate-400 bg-slate-900">
+      <body className="antialiased text-slate-400 bg-slate-900 ">
         {children}
         {process.env.NODE_ENV === "development" ? <LiveReload /> : null}
       </body>

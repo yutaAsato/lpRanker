@@ -2,9 +2,12 @@ import React from "react";
 
 export const TopSection = ({ data }: any) => {
   return (
-    <div>
+    <div className="relative flex justify-center">
       <div>
-        <span>BTC PRICE ${data[0].current_price}</span>
+        <span className="text-5xl text-white font-bold">
+          BTC <span className="text-sky-400">PRICE</span> $
+          {data[0].current_price}
+        </span>
       </div>
     </div>
   );

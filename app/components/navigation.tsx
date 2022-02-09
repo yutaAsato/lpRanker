@@ -10,9 +10,9 @@ export default function Navbar() {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
               to="/"
-              className="text-base font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
+              className="text-3xl font-sans font-extrabold text-indigo-400 leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
             >
-              LP RANKER
+              LP Ranker
             </Link>
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
